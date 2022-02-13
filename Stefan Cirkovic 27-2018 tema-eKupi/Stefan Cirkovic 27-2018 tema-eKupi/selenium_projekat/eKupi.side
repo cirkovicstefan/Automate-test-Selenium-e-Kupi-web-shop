@@ -1,0 +1,1419 @@
+{
+  "id": "ffea38d7-6cbc-436a-bf9a-7879ecdfb67c",
+  "version": "2.0",
+  "name": "Projekat",
+  "url": "https://www.ekupi.rs/rs/",
+  "tests": [{
+    "id": "0e75d392-472c-4878-8a18-9cbe3ea6c185",
+    "name": "RegistracijaPrijavaProveraPodataka",
+    "commands": [{
+      "id": "b4a11aa3-705f-469e-abc1-9b780a623a1c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ekupi.rs/rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "485c8b40-711a-4304-8a7d-ac9864630e4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a7a2bbe-fb01-4611-9f8c-9ac3675bf326",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijava / Registracija",
+      "targets": [
+        ["linkText=Prijava / Registracija", "linkText"],
+        ["css=.login_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijava / Registracija')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/login')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijava / Registracija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5d61377-2456-4ab3-b8d1-c140de72636b",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.title",
+      "targets": [
+        ["id=register.title", "id"],
+        ["name=titleCode", "name"],
+        ["css=#register\\.title", "css:finder"],
+        ["xpath=//select[@id='register.title']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c8b42e1-f31c-4953-94e0-193edc700464",
+      "comment": "",
+      "command": "select",
+      "target": "id=register.title",
+      "targets": [],
+      "value": "label=Gospodin"
+    }, {
+      "id": "acc91b2c-7710-44ec-8367-63768a273456",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.firstName",
+      "targets": [
+        ["id=register.firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#register\\.firstName", "css:finder"],
+        ["xpath=//input[@id='register.firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33993e9-1bcc-46fa-858c-a0369a711291",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.firstName",
+      "targets": [
+        ["id=register.firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#register\\.firstName", "css:finder"],
+        ["xpath=//input[@id='register.firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "Kupac"
+    }, {
+      "id": "0a0da685-d5d6-4eb8-b4eb-7e315e5efe9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.lastName",
+      "targets": [
+        ["id=register.lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#register\\.lastName", "css:finder"],
+        ["xpath=//input[@id='register.lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa419c1-519d-4175-aa64-e8b308942fec",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.lastName",
+      "targets": [
+        ["id=register.lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#register\\.lastName", "css:finder"],
+        ["xpath=//input[@id='register.lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Kupac"
+    }, {
+      "id": "90a53a33-cd7d-4604-b924-7843168bb33b",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.email",
+      "targets": [
+        ["id=register.email", "id"],
+        ["name=email", "name"],
+        ["css=#register\\.email", "css:finder"],
+        ["xpath=//input[@id='register.email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dbde76e-f8b2-4517-8afd-4fc3a8b1f51d",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.email",
+      "targets": [
+        ["id=register.email", "id"],
+        ["name=email", "name"],
+        ["css=#register\\.email", "css:finder"],
+        ["xpath=//input[@id='register.email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": "thvcrsetlltkcbvkln@kvhrs.com"
+    }, {
+      "id": "e4fb34d3-7036-4834-8827-640c59b35b5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.email",
+      "targets": [
+        ["id=register.email", "id"],
+        ["name=email", "name"],
+        ["css=#register\\.email", "css:finder"],
+        ["xpath=//input[@id='register.email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06b5f70-28fd-4c45-9776-64405fd31bd8",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.email",
+      "targets": [
+        ["id=register.email", "id"],
+        ["name=email", "name"],
+        ["css=#register\\.email", "css:finder"],
+        ["xpath=//input[@id='register.email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": "thvcrsetlltkcbvklnn@kvhrs.com"
+    }, {
+      "id": "f7a2ebb6-27e1-4fbe-91ad-4cea99000a51",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pwd", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74b8c2bf-a3d0-499e-b915-27a238db5927",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-right-content-component",
+      "targets": [
+        ["css=.login-right-content-component", "css:finder"],
+        ["xpath=//div[5]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e7367d6-5636-4d9a-bcac-76ab415fa784",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pwd", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "kupackupac123"
+    }, {
+      "id": "ca8dca6a-9f54-4fb7-ad80-46f772b8dd12",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.checkPwd",
+      "targets": [
+        ["id=register.checkPwd", "id"],
+        ["name=checkPwd", "name"],
+        ["css=#register\\.checkPwd", "css:finder"],
+        ["xpath=//input[@id='register.checkPwd']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dfb6128-ad8b-453c-96d0-d58b0e1a0b09",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.checkPwd",
+      "targets": [
+        ["id=register.checkPwd", "id"],
+        ["name=checkPwd", "name"],
+        ["css=#register\\.checkPwd", "css:finder"],
+        ["xpath=//input[@id='register.checkPwd']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "kupackupac123"
+    }, {
+      "id": "5297f72c-8093-4e4a-a281-084d60c66224",
+      "comment": "",
+      "command": "click",
+      "target": "id=cbNewsletter",
+      "targets": [
+        ["id=cbNewsletter", "id"],
+        ["css=#cbNewsletter", "css:finder"],
+        ["xpath=//input[@id='cbNewsletter']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[7]/label/input", "xpath:idRelative"],
+        ["xpath=//div[7]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3876e776-e425-41bf-8eb7-e34dfa63b82d",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerChkTermsConditions",
+      "targets": [
+        ["id=registerChkTermsConditions", "id"],
+        ["name=termsCheck", "name"],
+        ["css=#registerChkTermsConditions", "css:finder"],
+        ["xpath=//input[@id='registerChkTermsConditions']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[8]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dc95a48-d6cb-4cac-89c3-01e014703a6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[10]/button", "xpath:idRelative"],
+        ["xpath=//div[10]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bb3569bd-a010-45dd-90b7-d5adba3471a0",
+    "name": "DodavanjeProizvodaUKorpu",
+    "commands": [{
+      "id": "069e9fd2-39d0-4c3c-ac65-a0bda1ce9213",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ekupi.rs/rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25bd2842-d6f0-4662-8750-416d7dc5d000",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d9a6616-e109-4fe3-8087-aef475d02e68",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.owl-item:nth-child(1) .js-responsive-image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='RS ledena sniÅ¾enja 2022 landing WIDESCREEN 1920 X 436.jpg']", "xpath:img"],
+        ["xpath=//div[@id='jumbo-slider']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ea60b86-f51f-45e6-98c1-1dd548ee483a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.owl-item:nth-child(1) .js-responsive-image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='RS ledena sniÅ¾enja 2022 landing WIDESCREEN 1920 X 436.jpg']", "xpath:img"],
+        ["xpath=//div[@id='jumbo-slider']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0be17381-5032-486d-9c52-f6243df93509",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Računari",
+      "targets": [
+        ["linkText=Računari", "linkText"],
+        ["css=.auto:nth-child(3) > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Računari')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10001')]", "xpath:href"],
+        ["xpath=//li[3]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Računari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "248d6555-9c90-432a-a35d-2f62afa4f410",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Laptopovi i oprema",
+      "targets": [
+        ["linkText=Laptopovi i oprema", "linkText"],
+        ["css=li:nth-child(1) > .facet__text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptopovi i oprema')]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Ra%C4%8Dunari/Laptopovi-i-oprema/c/10012')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptopovi i oprema')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5c6b324-dafb-4758-9587-cd761002f6d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptopovi i oprema",
+      "targets": [
+        ["linkText=Laptopovi i oprema", "linkText"],
+        ["css=li:nth-child(1) > .facet__text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptopovi i oprema')]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Ra%C4%8Dunari/Laptopovi-i-oprema/c/10012')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptopovi i oprema')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "433be188-617d-4e9f-90ba-1bf0c8a5f5eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptopovi",
+      "targets": [
+        ["linkText=Laptopovi", "linkText"],
+        ["css=li:nth-child(2) > .facet__text > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Laptopovi')])[2]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Ra%C4%8Dunari/Laptopovi-i-oprema/Laptopovi/c/10068')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cd8f1a4-905a-440e-bea9-4c6817b05ea9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='NB ACER 14\" A314-22-R4LQ R5-3500U/8GB/256GB']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "227980a5-b2d1-40c6-abb5-7c50952b644e",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCartButton",
+      "targets": [
+        ["id=addToCartButton", "id"],
+        ["css=#addToCartButton", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm']/button", "xpath:idRelative"],
+        ["xpath=//form[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad8c894-f8b8-46f5-b752-79f749c320b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Elektronika",
+      "targets": [
+        ["linkText=Elektronika", "linkText"],
+        ["css=.show-sub > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Elektronika')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10002')]", "xpath:href"],
+        ["xpath=//li[4]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elektronika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acab7d12-4d96-4c3e-9681-d336a5146340",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Audio",
+      "targets": [
+        ["linkText=Audio", "linkText"],
+        ["css=li:nth-child(1) > .facet__text > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Audio')])[2]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Elektronika/Audio/c/12608')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f06a996-46d4-4b30-8c33-bdbca289d56f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Audio i video kablovi",
+      "targets": [
+        ["linkText=Audio i video kablovi", "linkText"],
+        ["css=li:nth-child(1) > .facet__text > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Audio i video kablovi')])[2]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Elektronika/Audio/Audio-i-video-kablovi/c/10582')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e85bd557-75c5-4278-9dc0-cf5a816707cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Audio i video kablovi",
+      "targets": [
+        ["linkText=Audio i video kablovi", "linkText"],
+        ["css=li:nth-child(1) > .facet__text > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Audio i video kablovi')])[2]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Elektronika/Audio/Audio-i-video-kablovi/c/10582')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efdba122-cc27-474f-b24b-4d1202fde9dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='Vivax BS-800, karaoke zvučnik']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae4b59ae-ee50-4750-b345-951ff1427be6",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCartButton",
+      "targets": [
+        ["id=addToCartButton", "id"],
+        ["css=#addToCartButton", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm']/button", "xpath:idRelative"],
+        ["xpath=//form[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4713bd6-dab3-483a-9d37-ae27448727b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Auto i moto oprema",
+      "targets": [
+        ["linkText=Auto i moto oprema", "linkText"],
+        ["css=.show-sub > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Auto i moto oprema')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10005')]", "xpath:href"],
+        ["xpath=//li[6]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Auto i moto oprema')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b067002-3764-4534-9b89-34538d2450c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Auto delovi i pribor",
+      "targets": [
+        ["linkText=Auto delovi i pribor", "linkText"],
+        ["css=li:nth-child(1) > .facet__text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Auto delovi i pribor')]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Auto-i-moto-oprema/Auto-delovi-i-pribor/c/10032')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Auto delovi i pribor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a65f0976-ab68-41e9-91fd-7e4a3801cb72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(2) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(2) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='Energizer Premium 63 Ah Desno']", "xpath:img"],
+        ["xpath=//div[2]/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "876dece9-21ca-4f34-9351-ab9aca601ea2",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCartButton",
+      "targets": [
+        ["id=addToCartButton", "id"],
+        ["css=#addToCartButton", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm']/button", "xpath:idRelative"],
+        ["xpath=//form[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fea4fabe-1279-406f-a101-7f8b39c53423",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yCmsContentSlot:nth-child(1) .mini-cart-price",
+      "targets": [
+        ["css=.yCmsContentSlot:nth-child(1) .mini-cart-price", "css:finder"],
+        ["xpath=//li/div/div/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20970829-0b5f-4917-b661-1fae5cdde4d5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Isprazni korpu",
+      "targets": [
+        ["linkText=Isprazni korpu", "linkText"],
+        ["css=.col-xs-12 > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Isprazni korpu')]", "xpath:link"],
+        ["xpath=//a[@id='']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,' Isprazni korpu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "441e2cff-82fa-4ac7-b589-1718f401da78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-totals-right",
+      "targets": [
+        ["css=.cart-totals-right", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f018c3-98cd-47cd-b172-4a30126f070f",
+      "comment": "",
+      "command": "click",
+      "target": "id=clearCartButton",
+      "targets": [
+        ["id=clearCartButton", "id"],
+        ["css=#clearCartButton", "css:finder"],
+        ["xpath=//button[@id='clearCartButton']", "xpath:attributes"],
+        ["xpath=//button[contains(.,' Isprazni korpu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d7fb99-b3a2-4994-9ac5-edeffde21c63",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=clearCartButton",
+      "targets": [
+        ["id=clearCartButton", "id"],
+        ["css=#clearCartButton", "css:finder"],
+        ["xpath=//button[@id='clearCartButton']", "xpath:attributes"],
+        ["xpath=//button[contains(.,' Isprazni korpu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed731f60-b3b2-4cbf-8547-6737dc85c2fc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=clearCartButton",
+      "targets": [
+        ["id=clearCartButton", "id"],
+        ["css=#clearCartButton", "css:finder"],
+        ["xpath=//button[@id='clearCartButton']", "xpath:attributes"],
+        ["xpath=//button[contains(.,' Isprazni korpu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7240bea5-61ed-41f3-8da8-0b036385f920",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ISPRAZNI",
+      "targets": [
+        ["linkText=ISPRAZNI", "linkText"],
+        ["css=#cboxLoadedContent > #clear-cart-popup-content .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'ISPRAZNI')])[2]", "xpath:link"],
+        ["xpath=(//a[@onclick='ACC.cart.clearCart()'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='clear-cart-popup-content']/div[2]/div/a)[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3487a60f-52c8-4339-a4dc-18e37bbf5722",
+    "name": "TestFiltriranjeProizvoda",
+    "commands": [{
+      "id": "e3563902-740e-4bfa-8586-8ece04b89a06",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ekupi.rs/rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6575b487-4d32-4adf-8503-683c492d80d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e26e460-2257-4d17-994c-9df513fd4f90",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Elektronika",
+      "targets": [
+        ["linkText=Elektronika", "linkText"],
+        ["css=.auto:nth-child(4) > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Elektronika')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10002')]", "xpath:href"],
+        ["xpath=//li[4]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elektronika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8557ad7a-8150-440f-ab68-e482ad287c1d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Elektronika",
+      "targets": [
+        ["linkText=Elektronika", "linkText"],
+        ["css=.auto:nth-child(4) > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Elektronika')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10002')]", "xpath:href"],
+        ["xpath=//li[4]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elektronika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b870ec09-2f73-4c98-b92b-c8118f5b9886",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Računari",
+      "targets": [
+        ["linkText=Računari", "linkText"],
+        ["css=.show-sub > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Računari')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10001')]", "xpath:href"],
+        ["xpath=//li[3]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Računari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f641e902-8487-408b-b829-2e81f14bb910",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Računari",
+      "targets": [
+        ["linkText=Računari", "linkText"],
+        ["css=.auto:nth-child(3) > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Računari')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10001')]", "xpath:href"],
+        ["xpath=//li[3]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Računari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7bf38cb-9d1d-4158-87d1-f606ae18c00f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptopovi i oprema",
+      "targets": [
+        ["linkText=Laptopovi i oprema", "linkText"],
+        ["css=li:nth-child(1) > .facet__text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptopovi i oprema')]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Ra%C4%8Dunari/Laptopovi-i-oprema/c/10012')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptopovi i oprema')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5edecb4-f6a7-42d3-a83b-df9ac438d720",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.owl-item:nth-child(1) .js-responsive-image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='RS HP Gaming modeli Laptopi 20 dana WIDESCREEN 1920 X 436.jpg']", "xpath:img"],
+        ["xpath=//div[@id='jumbo-slider']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ab4b803-e40e-45c8-899e-b024abca568d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.owl-item:nth-child(1) .js-responsive-image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='RS HP Gaming modeli Laptopi 20 dana WIDESCREEN 1920 X 436.jpg']", "xpath:img"],
+        ["xpath=//div[@id='jumbo-slider']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b5b8e4e-09d8-49ae-94b5-385737447f34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptopovi",
+      "targets": [
+        ["linkText=Laptopovi", "linkText"],
+        ["css=li:nth-child(2) > .facet__text > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Laptopovi')])[2]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Ra%C4%8Dunari/Laptopovi-i-oprema/Laptopovi/c/10068')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3e8d9a6-b76c-4c1f-870c-14476d35b100",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facet:nth-child(5) li:nth-child(6) .facet__list__text",
+      "targets": [
+        ["css=.facet:nth-child(5) li:nth-child(6) .facet__list__text", "css:finder"],
+        ["xpath=//div[@id='product-facet']/div[5]/div[2]/ul/li[6]/form/label/span/span[2]", "xpath:idRelative"],
+        ["xpath=//li[6]/form/label/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91552adc-51fc-4d8d-a5bc-38fbd8acf45b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facet:nth-child(8) li:nth-child(4)",
+      "targets": [
+        ["css=.facet:nth-child(8) li:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='product-facet']/div[8]/div[2]/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/ul/li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7f85df1-5e14-4cc1-8f2a-4967be530a20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facet:nth-child(8) li:nth-child(4) .facet__list__text",
+      "targets": [
+        ["css=.facet:nth-child(8) li:nth-child(4) .facet__list__text", "css:finder"],
+        ["xpath=//div[@id='product-facet']/div[8]/div[2]/ul/li[4]/form/label/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/ul/li[4]/form/label/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6fcf32e-ea32-453c-9bc3-69c32574c30a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facet:nth-child(8) .facet__list__text",
+      "targets": [
+        ["css=.facet:nth-child(8) .facet__list__text", "css:finder"],
+        ["xpath=//div[@id='product-facet']/div[8]/div[2]/ul/li/form/label/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/ul/li/form/label/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8cadb715-5198-4854-8927-0da6d0b70655",
+    "name": "TestSortiranjeProizvoda",
+    "commands": [{
+      "id": "364d5c2a-07ae-46dc-afc8-9b5ae577402d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ekupi.rs/rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9bbc4de-365b-4c31-b6f2-103ba3fdaf10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "648fe205-e855-440a-8ed5-c67c04ba370a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Elektronika",
+      "targets": [
+        ["linkText=Elektronika", "linkText"],
+        ["css=.show-sub > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Elektronika')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10002')]", "xpath:href"],
+        ["xpath=//li[4]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elektronika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c795e67b-d773-495a-ad10-c8eccd114e51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Elektronika",
+      "targets": [
+        ["linkText=Elektronika", "linkText"],
+        ["css=.auto:nth-child(4) > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Elektronika')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10002')]", "xpath:href"],
+        ["xpath=//li[4]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elektronika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "062f5357-89a9-4188-ab25-55b4b373edbf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fotoaparati i videokamere",
+      "targets": [
+        ["linkText=Fotoaparati i videokamere", "linkText"],
+        ["css=li:nth-child(2) > .facet__text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Fotoaparati i videokamere')]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Elektronika/Fotoaparati-i-videokamere/c/10019')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fotoaparati i videokamere')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c038bb0d-f64e-4af7-968a-4b77047c2181",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-item:nth-child(2) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(2) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='PANASONIC baterije LR03EPS/24PD=AAA 24 kom Alkalne Everyday']", "xpath:img"],
+        ["xpath=//div[2]/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d3fe4bc-0bf0-4e6a-96e1-f11527ca6dce",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product-item:nth-child(2) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(2) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='PANASONIC baterije LR03EPS/24PD=AAA 24 kom Alkalne Everyday']", "xpath:img"],
+        ["xpath=//div[2]/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5be8b276-c2ed-41c7-9a71-e3084cf1e108",
+      "comment": "",
+      "command": "click",
+      "target": "id=sortOptions1",
+      "targets": [
+        ["id=sortOptions1", "id"],
+        ["name=sort", "name"],
+        ["css=#sortOptions1", "css:finder"],
+        ["xpath=//select[@id='sortOptions1']", "xpath:attributes"],
+        ["xpath=//form[@id='sortForm1']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad0ee30-ca2d-454e-91df-5c3151cc5030",
+      "comment": "",
+      "command": "select",
+      "target": "id=sortOptions1",
+      "targets": [],
+      "value": "label=Naziv (uzlazno)"
+    }, {
+      "id": "1c3ff047-27e3-435e-ae22-94a38d6bc2cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=sortOptions1",
+      "targets": [
+        ["id=sortOptions1", "id"],
+        ["name=sort", "name"],
+        ["css=#sortOptions1", "css:finder"],
+        ["xpath=//select[@id='sortOptions1']", "xpath:attributes"],
+        ["xpath=//form[@id='sortForm1']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "631ef8f1-273c-4e68-963e-63beb91fabf5",
+      "comment": "",
+      "command": "select",
+      "target": "id=sortOptions1",
+      "targets": [],
+      "value": "label=Naziv (silazno)"
+    }, {
+      "id": "d13cc645-7829-4d1b-af1b-32afeadf58a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=sortOptions1",
+      "targets": [
+        ["id=sortOptions1", "id"],
+        ["name=sort", "name"],
+        ["css=#sortOptions1", "css:finder"],
+        ["xpath=//select[@id='sortOptions1']", "xpath:attributes"],
+        ["xpath=//form[@id='sortForm1']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14986ba8-2cc9-4943-9cb2-62d4874e52b7",
+      "comment": "",
+      "command": "select",
+      "target": "id=sortOptions1",
+      "targets": [],
+      "value": "label=Cena (prvo najniža)"
+    }, {
+      "id": "9b138941-bf4c-4878-9a3a-8a765056537e",
+      "comment": "",
+      "command": "click",
+      "target": "id=sortOptions1",
+      "targets": [
+        ["id=sortOptions1", "id"],
+        ["name=sort", "name"],
+        ["css=#sortOptions1", "css:finder"],
+        ["xpath=//select[@id='sortOptions1']", "xpath:attributes"],
+        ["xpath=//form[@id='sortForm1']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5b64fef-e33c-4c52-ae65-b17c40c77da4",
+      "comment": "",
+      "command": "select",
+      "target": "id=sortOptions1",
+      "targets": [],
+      "value": "label=Cena (prvo najviša)"
+    }, {
+      "id": "13c59218-7c80-4a1e-8626-6783c6e1cfc0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-item:nth-child(1) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='GoPro Hero 10 Black akciona kamera']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe619142-52b1-4aff-9509-f5210637855b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product-item:nth-child(1) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='GoPro Hero 10 Black akciona kamera']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cec81d6d-6c9c-48ce-b9ae-d43a220718e0",
+    "name": "TestZaPoredjenjeProizvoda",
+    "commands": [{
+      "id": "0da8b22d-9a98-45a5-bf63-d8153b3ae941",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ekupi.rs/rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c06e4782-3af1-44dc-bc29-a75f498080e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95715c18-bbbe-4b31-8de0-cd2ff525532b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.owl-item:nth-child(1) .js-responsive-image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='RS ledena sniÅ¾enja 2022 landing WIDESCREEN 1920 X 436.jpg']", "xpath:img"],
+        ["xpath=//div[@id='jumbo-slider']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3aa29ce-c6bc-49f9-9624-3f8a5392c817",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.owl-item:nth-child(1) .js-responsive-image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='RS ledena sniÅ¾enja 2022 landing WIDESCREEN 1920 X 436.jpg']", "xpath:img"],
+        ["xpath=//div[@id='jumbo-slider']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa66eb79-2b97-4773-a3da-17cbcbe6cfb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kućni aparati",
+      "targets": [
+        ["linkText=Kućni aparati", "linkText"],
+        ["css=.show-sub > .yCmsComponent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kućni aparati')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/c/10003')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kućni aparati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffbe5437-20df-4bd3-93dc-b6ec2b070414",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mali kućni aparati",
+      "targets": [
+        ["linkText=Mali kućni aparati", "linkText"],
+        ["css=li:nth-child(4) > .facet__text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mali kućni aparati')]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li[4]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Ku%C4%87ni-aparati/Mali-ku%C4%87ni-aparati/c/10024')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mali kućni aparati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c7a5c9f-4f45-4494-94ac-9ae23e1e6ff6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Friteze",
+      "targets": [
+        ["linkText=Friteze", "linkText"],
+        ["css=li:nth-child(6) > .facet__text > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Friteze')])[2]", "xpath:link"],
+        ["xpath=//div[@id='product-facet']/div/div/div[2]/ul/li[6]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rs/Ku%C4%87ni-aparati/Mali-ku%C4%87ni-aparati/Friteze/c/10143')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0ca8663-b098-4233-8445-cb8ac5f69b60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='Vivax friteza DF-2003SS']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da4c6f6b-15ee-4e23-b451-65046e38727b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-compare-checkbox",
+      "targets": [
+        ["css=.product-compare-checkbox", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0456424c-a9f0-4ddc-b2df-c9ad76672d2c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-compare-checkbox",
+      "targets": [
+        ["css=.product-compare-checkbox", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11bfcb29-2664-4500-abaa-7ef7f1a7d09a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product-compare-checkbox",
+      "targets": [
+        ["css=.product-compare-checkbox", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96816b14-2eda-46ee-b461-979c66670e19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Friteze",
+      "targets": [
+        ["linkText=Friteze", "linkText"],
+        ["css=.breadcrumb > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Friteze')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/Friteze/c/10143')]", "xpath:href"],
+        ["xpath=//ol/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79b57c4f-34ed-44b2-bfa3-6c4a4a805dba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-item:nth-child(1) .PdpStaticSticker",
+      "targets": [
+        ["css=.product-item:nth-child(1) .PdpStaticSticker", "css:finder"],
+        ["xpath=//img[@alt='IsporukaOdmahWarehouseRS']", "xpath:img"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71b6d80-fcdf-4154-a54b-5c9af131cca1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product-item:nth-child(1) .PdpStaticSticker",
+      "targets": [
+        ["css=.product-item:nth-child(1) .PdpStaticSticker", "css:finder"],
+        ["xpath=//img[@alt='IsporukaOdmahWarehouseRS']", "xpath:img"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bde98ca-3068-4a38-83bf-ead3694ffdfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(2) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(2) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='Vivax friteza DF-1800B']", "xpath:img"],
+        ["xpath=//div[2]/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfa2cf45-8e94-4b3e-841f-d1c35029ba08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-compare-checkbox",
+      "targets": [
+        ["css=.product-compare-checkbox", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "328d6f8a-d9bd-46e3-8265-b766e80246c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Friteze",
+      "targets": [
+        ["linkText=Friteze", "linkText"],
+        ["css=.breadcrumb > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Friteze')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/Friteze/c/10143')]", "xpath:href"],
+        ["xpath=//ol/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "874f4575-fe7c-451f-9887-13a8d2c5322a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Vivax friteza DF-1800B",
+      "targets": [
+        ["linkText=Vivax friteza DF-1800B", "linkText"],
+        ["css=.product-item:nth-child(2) .name", "css:finder"],
+        ["xpath=//a[contains(text(),'Vivax friteza DF-1800B')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/rs/Ku%C4%87ni-aparati/Mali-ku%C4%87ni-aparati/Friteze/Vivax-friteza-DF-1800B/p/EK000179987')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vivax friteza DF-1800B')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7893991-122e-42a9-8207-21a73d6160ac",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Vivax friteza DF-1800B",
+      "targets": [
+        ["linkText=Vivax friteza DF-1800B", "linkText"],
+        ["css=.product-item:nth-child(2) .name", "css:finder"],
+        ["xpath=//a[contains(text(),'Vivax friteza DF-1800B')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/rs/Ku%C4%87ni-aparati/Mali-ku%C4%87ni-aparati/Friteze/Vivax-friteza-DF-1800B/p/EK000179987')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vivax friteza DF-1800B')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a404300d-ce9b-401e-a0a5-52bb858c2d5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-compare-button",
+      "targets": [
+        ["id=product-compare-button", "id"],
+        ["css=#product-compare-button", "css:finder"],
+        ["xpath=//button[@id='product-compare-button']", "xpath:attributes"],
+        ["xpath=//div[@id='panel']/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "73d668c9-03a4-41fc-9966-84624d3abec9",
+    "name": "TestPretragaProizvoda",
+    "commands": [{
+      "id": "7737376d-fb88-4363-8628-444c88dd39ec",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ekupi.rs/rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b463ec0b-a7a9-445b-9423-375458b67ca4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddada2b1-e6bc-4de8-94d4-ef7090f6740d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.banner__component img",
+      "targets": [
+        ["css=.banner__component img", "css:finder"],
+        ["xpath=(//img[@alt='ekupi logo'])[2]", "xpath:img"],
+        ["xpath=//div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5c134bc-4297-4881-a168-4e042b0d7e19",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.banner__component img",
+      "targets": [
+        ["css=.banner__component img", "css:finder"],
+        ["xpath=(//img[@alt='ekupi logo'])[2]", "xpath:img"],
+        ["xpath=//div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5a8d528-c02a-4e74-996d-ebee0b42cc5b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.banner__component > a",
+      "targets": [
+        ["css=.banner__component > a", "css:finder"],
+        ["xpath=(//a[contains(@href, '/rs/')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3651fd43-8c04-430a-b249-e0a839780160",
+      "comment": "",
+      "command": "click",
+      "target": "id=js-site-search-input",
+      "targets": [
+        ["id=js-site-search-input", "id"],
+        ["name=text", "name"],
+        ["css=#js-site-search-input", "css:finder"],
+        ["xpath=//input[@id='js-site-search-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9571ed10-0a9c-4237-bb18-07566182d30b",
+      "comment": "",
+      "command": "type",
+      "target": "id=js-site-search-input",
+      "targets": [
+        ["id=js-site-search-input", "id"],
+        ["name=text", "name"],
+        ["css=#js-site-search-input", "css:finder"],
+        ["xpath=//input[@id='js-site-search-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nokia 6310 DS Black "
+    }, {
+      "id": "acd0256f-46c2-4792-a620-e54a8fd5a4e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-link",
+      "targets": [
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "148fef2b-4a5f-4d36-a209-03bab863caf5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-item:nth-child(1) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='Nokia 6310 DS Black, mobilni telefon']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2791c06-4045-417b-a189-67a9142b56d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) .thumb > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .thumb > img", "css:finder"],
+        ["xpath=//img[@alt='Nokia 6310 DS Black, mobilni telefon']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a88841c-fb68-4f9c-af0c-39d085b8b99a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Standardni mobilni telefoni",
+      "targets": [
+        ["linkText=Standardni mobilni telefoni", "linkText"],
+        ["css=.breadcrumb > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Standardni mobilni telefoni')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/Standardni-mobilni-telefoni/c/10088')]", "xpath:href"],
+        ["xpath=//ol/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "abc7eddc-597c-469a-8ced-46644a90c411",
+    "name": "TestPodaciOKopmaniji",
+    "commands": [{
+      "id": "40691c40-e737-4773-be01-a8f53b459831",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ekupi.rs/rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e8f5e2b-b82d-47b3-a263-74c56a89d1be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d06ade24-8520-46ab-a35b-e8b8204cdb06",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.owl-item:nth-child(1) .js-responsive-image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='RS ledena sniÅ¾enja 2022 landing WIDESCREEN 1920 X 436.jpg']", "xpath:img"],
+        ["xpath=//div[@id='jumbo-slider']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0869c19e-1caf-480d-bfc0-6e7138175803",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.owl-item:nth-child(1) .js-responsive-image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='RS ledena sniÅ¾enja 2022 landing WIDESCREEN 1920 X 436.jpg']", "xpath:img"],
+        ["xpath=//div[@id='jumbo-slider']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b98799a-d018-4c90-be34-96b6e31336b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=O nama",
+      "targets": [
+        ["linkText=O nama", "linkText"],
+        ["css=.footer__nav--container:nth-child(2) .yCmsComponent:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'O nama')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rs/O-nama')]", "xpath:href"],
+        ["xpath=//div/div/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'O nama')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8909f78-b8c2-4a5d-b956-5ac612dbb7d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.textContainer:nth-child(3)",
+      "targets": [
+        ["css=.textContainer:nth-child(3)", "css:finder"],
+        ["xpath=//div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d16972ac-b82f-412a-a48c-72a4ea1ec936",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

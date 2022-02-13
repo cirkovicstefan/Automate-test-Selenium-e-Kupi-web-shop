@@ -1,0 +1,84 @@
+
+===============================================================
+Naziv testa >> Test registracija korisnika
+Opis testa:
+Test registruje novog korisnika na sistem sa neophodnim podacima
+Test je prosao  >> Uspesno
+===============================================================
+Naziv testa >> Test prijava korisnika
+Opis testa:
+Test vrsi prijavu korisnika na sistem i proveru korisnickih podataka na profilu
+Test je prosao  >> Uspesno
+===============================================================
+Naziv testa >> Test dodavanje proizvoda u korpu i provera ukupne cene
+Opis testa:
+Test vrsi dodavanje proizvoda u korpu, proverava da li je to taj poizvod koji smo dodali u korpu i vrsi proveru ukupne cene proizvoda 
+Test je prosao >> Uspesno
+===============================================================
+Naziv testa >> Test poredjenje proizvoda
+Opis testa:
+Test proverava da li su  proizvodi koji su dodati u tabelu za poredjenje zaprovo ti proizvodi
+Test je prosao  >> Uspesno
+===============================================================
+Naziv testa >> Test za pretragu proizvoda
+Opis testa:
+Test vrsi pretragu nekog proizvoda u ovom slucaju Nokia 6310 DS Black 
+Test je prosao  >> Uspesno
+
+=========== Vreme otvaranja (ucitavanja) stranica ===========
+Pocetna >> 8289 ms
+Kategorija racunari >> 3185 ms
+Kategorija elektronika >> 3061 ms
+Kategorija gaming >> 2959 ms
+Kategorija auto moto oprema >> 5313 ms
+Kategorija kuca alati i basta >> 3673 ms
+Kategorija kucni aparati >> 5046 ms
+------------------------------------------------------------------
+Prosecno vreme ucitavanja >> 4503.714285714285 ms
+
+===============================================================
+Naziv testa >> Test performanse otvaranja stranica i prosecno vreme otvaranja
+Opis testa:
+Test vrsi prikaz vremena otvaranja 7 razlicitih stranica, kao i prosecno vreme 
+Test je prosao  >> Uspesno
+===============================================================
+Naziv testa >> Test za sortiranje proizvoda prema nazivu
+Opis testa:
+Test vrsi proveru funkcionalnosti za sortiranje u rastucem i opadajucem poretku prema nazivu proizvoda
+Test je prosao  >> Uspesno
+===============================================================
+Naziv testa >> Test za sortiranje proizvoda prema ceni
+Opis testa:
+Test vrsi proveru funkcionalnosti za sortiranje u rastucem i opadajucem poretku prema ceni
+Test je prosao  >> Uspesno
+===============================================================
+Naziv testa >> Test za filtriranje proizvoda
+Opis testa:
+Test vrsi proveru funkcionalnosti filtera za laptop racunare
+  filtriranje se vrsi po modeli laptopa tipu procesora i ram memoriji,
+ test je pronasao gresku i mozemo zakljuciti da ne funkcionise filter na e-prodavnici kako treba
+ 
+Test je prosao  >> Uspesno
+============================ Podaci o kompaniji ===================================
+www.ekupi.rs je prodavnica koja je specijalizovana za prodaju putem Interneta i nudi više od 150.000 raspoloživih artikala iz različitih područja elektronike, informatike, alata, auto guma, igračaka itd... Misleći na Vas, kontinuirano ćemo i dalje širiti našu ponudu!
+
+Većina artikala koje nudimo su rapoloživi ili već narednog radnog dana ili u roku od 3-4 radna dana. Dostava je besplatna za sve porudžbine ukupne vrednosti 5.000 dinara i više. Cena dostave za porudžbine manje vrednosti je fiksna i iznosti 250 dinara. Nudimo i mogućnost ličnog preuzimanja na dve adrese!
+
+eKupi.rs webshop ima razne mogućnosti plaćanja poput plaćanja prilikom dostave (pouzećem), plaćanje opštom uplatnicom u pošti, ebanking ili karticama. Plaćanje karticama preko eKupi.rs je apsolutno sigurno jer koristimo vodeći svetski sertifikat „Verisign Secure Site EV“ koji 100% štiti Vaše podatke.
+
+Za tehničke uređaje iz ponude omogućavamo Pickup & Return Servis, što znači da kupac ne snosi troškove prevoza od i do servisa u slučaju kvara. Takođe, svi kupci imaju mogućnost povrata novca ili robe u skladu sa zakonskim okvirima.
+
+Uživajte u sigurnoj i udobnoj kupovini!
+
+Pratite nas i na Facebooku i učestvujte u nagradnim igrama i takmičenjima, čitajte novosti i informacije o novim akcijama i super ponudama, pitajte nas bilo šta, a mi ćemo brzo odgovoriti, podelite informacije o dobrim ponudama sa prijateljima....
+
+
+Vaš Ekupi team
+
+
+ 
+===============================================================
+Naziv testa >> Test prikupljanje podataka o kompaniji
+Opis testa:
+Test prikuplja podatke o kompaniji 
+Test je prosao  >> Uspesno
